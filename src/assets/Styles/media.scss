@@ -1,0 +1,57 @@
+@media (min-width: 1300px) {
+  .bg-banner {
+    height: 95vh;
+  }
+  .row-reverse {
+    flex-direction: row-reverse;
+  }
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    min-width: 100%;
+  }
+}
+@media (min-size: 1400px) {
+  body {
+    font-size: 17px;
+  }
+  .f-30 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .bg-banner {
+    background-image: url(../images/banner.jpg) !important;
+    min-height: 100vh;
+  }
+
+  .bg-breakfast {
+    background-image: url(../images/breakfast-mb.jpg) !important;
+    min-height: 85vh;
+  }
+
+  .bg-honey {
+    background-image: url(../images/honey-mb.jpg) !important;
+    min-height: 95vh;
+    background-position: center center !important;
+  }
+
+  .message {
+    right: 30% !important;
+  }
+
+  .whatsapp {
+    right: 9% !important;
+  }
+
+  .product .content:hover .text {
+    transform: translateY(80px) !important;
+    -webkit-transform: translateY(80px) !important;
+    -moz-transform: translateY(80px) !important;
+    -ms-transform: translateY(80px) !important;
+    -o-transform: translateY(80px) !important;
+  }
+}

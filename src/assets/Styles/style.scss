@@ -1,0 +1,254 @@
+@font-face {
+  font-family: moret;
+  src: url(../fonts/moret.ttf);
+}
+@font-face {
+  font-family: metro;
+  src: url(../fonts/Metro.Sans/Metro.Sans/MetroSans-Regular.otf);
+}
+
+$brown: #5b3427;
+$yellow: #fec34d;
+$dark: #231f20;
+body {
+  font-family: mtero;
+  font-size: 14px;
+  .metro {
+    font-family: metro;
+  }
+  .sans {
+    font-family: sans-serif !important;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: moret;
+  }
+
+  .scroll-btn {
+    background: #5b3427;
+    position: fixed;
+    bottom: 8%;
+    right: 5%;
+    color: white;
+    z-index: 99999;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    display: flex;
+    height: 40px;
+    width: 40px;
+    box-shadow: 1px 1px 10px 4px #00000038;
+    i {
+      margin: absolute;
+    }
+  }
+
+  .scroll-btn:hover {
+    background: white;
+    color: $brown;
+    box-shadow: 1px 1px 10px 4px #00000038;
+  }
+
+  .navbar {
+    font-size: 14px;
+    font-family: metro;
+    font-family: 700;
+    text-transform: uppercase;
+  }
+
+  .header {
+    background-color: #5b3427;
+    height: 61px;
+    display: flex;
+
+    p {
+      margin: auto;
+      text-align: center;
+      font-family: metro;
+      font-size: 17px;
+      color: white;
+      font-weight: 700;
+    }
+  }
+  .head-1 {
+    font-family: MoretMNK;
+    font-size: 48px;
+  }
+  .p1 {
+    font-family: Metro Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+  }
+  .btn-yellow {
+    background-color: $yellow;
+    color: #231f20;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+  }
+
+  .btn-yellow:hover {
+    background-color: $brown;
+    color: #ffff;
+  }
+
+  .bg-banner {
+    background-image: url(../images/banner.png);
+    background-position-y: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
+
+    .message {
+      position: absolute;
+      bottom: -5%;
+      right: 15%;
+      z-index: 9;
+      background: $yellow;
+      display: flex;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+    }
+
+    .whatsapp {
+      position: absolute;
+      bottom: -5%;
+      right: 9%;
+      z-index: 9;
+      display: flex;
+    }
+  }
+
+  .bg-breakfast {
+    background-image: url(../images/breakfast.png);
+    background-position-y: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
+  }
+
+  .bg-honey {
+    background-image: url(../images/honey.png);
+    background-position-y: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    position: relative;
+  }
+
+  .footer {
+    background: $yellow;
+    font-family: sans-serif;
+
+    .input {
+      input {
+        background-color: transparent !important;
+        border-color: $brown !important;
+        color: $brown !important;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+      }
+
+      ::placeholder {
+        color: $brown !important;
+      }
+
+      button {
+        background: $brown;
+        color: white;
+        border-radius: 25px;
+        -webkit-border-radius: 25px;
+        -moz-border-radius: 25px;
+        -ms-border-radius: 25px;
+        -o-border-radius: 25px;
+      }
+
+      button:hover {
+        background: white;
+        color: $brown;
+      }
+    }
+  }
+}
+
+.lh-1 {
+  line-height: 1;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.f-30 {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.black {
+  color: black !important;
+}
+
+.yellow {
+  color: $yellow !important;
+}
+
+.bg-skin {
+  background-color: #ffc69a;
+}
+
+.dropdowntext > * {
+  color: black !important;
+  font-weight: 700;
+}
+
+.br-15 {
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+}
+
+.br-20 {
+  border-radius: 20px !important;
+  -webkit-border-radius: 20px !important;
+}
+
+.br-8 {
+  border-radius: 8px !important;
+  -webkit-border-radius: 8px !important;
+}
+.w-fit {
+  width: fit-content;
+}
+
+input:focus-visible,
+input:focus,
+textarea:focus {
+  box-shadow: none !important;
+}
+
+.over-flow-none {
+  overflow: hidden;
+}
+
+.shade {
+  box-shadow: 1px 1px 16px 1px #0303031c;
+}
